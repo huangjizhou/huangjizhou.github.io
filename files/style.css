@@ -184,7 +184,7 @@ span.divider {
 ol {
   padding-right: 0;
 }
-.desc .s-year {
+.desc .s-year, .desc .s-tag{
   position: relative;
   background-color: rgba(0,0,0,.05);
   padding-bottom: 0;
@@ -200,7 +200,7 @@ ol {
   transition: background  0.4s ease-in-out, border-color  0.4s ease-in-out ;
   cursor: pointer;
 }
-.desc .s-year:after {
+.desc .s-year:after, .desc .s-tag:after {
   width: 16px;
   height: 16px;
   display: table;
@@ -213,11 +213,35 @@ ol {
   margin-top: -8px;
 }
 
-.desc .s-year:hover {
+.desc .s-year:hover, .desc .s-tag:hover {
   background: #eee;
   border-left-color: #666;
 }
 
-.desc .s-year-close:after {
+.desc .s-year-close:after, .desc .s-tag-close:after {
   background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3Ecircle%2C%20ellipse%2C%20line%2C%20path%2C%20polygon%2C%20polyline%2C%20rect%2C%20text%20%7B%20fill%3A%20%232F2F2F%20!important%3B%20stroke%3A%20%232F2F2F!important%3B%20%7D%3C%2Fstyle%3E%3Cpath%20d%3D%22M937.5%20437.5H500V0h-62.5v437.5H0V500h437.5v437.5H500V500h437.5z%22%2F%3E%3C%2Fsvg%3E");
+}
+
+.filter-selector {
+  display: inline-block;
+  margin: 0 0 0 10px;
+  background-color: rgba(0,0,0,.05);
+  border: 0px solid;
+  appearance: none;
+  line-height: 100%;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+  border:  2px solid transparent;
+}
+.filter-selector:hover {
+  border-color: #DDD;
+}
+.filter-selector.active {
+  border-color: #CCC;
+}
+.hide-year {
+  display: none;
+}
+.hide-tag {
+  display: none;
 }
