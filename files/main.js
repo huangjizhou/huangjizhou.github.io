@@ -43,6 +43,9 @@ const DATA = `
 40|AirPollution2023|Data Mining
 41|UrbanRegionGraph2023|Data Mining
 42|3DPointCloudGen2023|Computer Vision
+43|TSC2023|Search and Recommendation
+44|POInBlog2023|Search and Recommendation
+45|SHAGNN2023|Data Mining
 `;
 
 // 决定tag标签整体排序
@@ -60,9 +63,9 @@ const tagsOrder = [
 const paperOrderInTag = {
   'Human-AI Interaction': [33, 39, 1, 23],
   'Intelligent Transportation': [38, 26, 16, 35, 32, 36, 37],
-  'Data Mining': [40, 18, 41, 21],
+  'Data Mining': [40, 18, 41, 45, 21],
   'Natural Language Processing': [34, 33, 39, 1, 23, 30],
-  'Search and Recommendation': [27, 25, 17, 14, 24, 19, 15, 6, 4, 5, 3, 2, 8, 9],
+  'Search and Recommendation': [27, 25, 17, 14, 24, 43, 44, 19, 15, 6, 4, 5, 3, 2, 8, 9],
   'Computer Vision': [7, 29, 32],
   'Artificial Intelligence': [7]
 }
