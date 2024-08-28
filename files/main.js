@@ -50,7 +50,7 @@ const DATA = `
 47|E2ECausality|Autonomous Driving
 48|BEVWorld|Autonomous Driving
 49|DuMapNet2024|Intelligent Transportation
-50|ReFound2024|Data Mining
+50|ReFound2024|Data Mining,Large Language Models (LLMs) and Applications
 `;
 
 // 决定tag标签整体排序
