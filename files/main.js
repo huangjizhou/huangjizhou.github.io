@@ -51,23 +51,24 @@ const DATA = `
 48|BEVWorld|Autonomous Driving
 49|DuMapNet2024|Intelligent Transportation
 50|ReFound2024|Data Mining,Large Language Models (LLMs) and Applications
+51|LDMapNet2025|Intelligent Transportation
 `;
 
 // 决定tag标签整体排序
 const tagsOrder = [
   'Large Language Models (LLMs) and Applications',
-  'Autonomous Driving',
-  'Intelligent Transportation',
-  'Data Mining',
-  'Natural Language Processing',
   'Search and Recommendation',
+  'Natural Language Processing',
+  'Data Mining',
+  'Intelligent Transportation',
+  'Autonomous Driving',
   'Computer Vision',
   'Survey'
 ];
 
 // 决定tag内文章排序，如果缺省的文章，倒排在这些之后
 const paperOrderInTag = {
-  'Intelligent Transportation': [38, 26, 16, 49, 32, 36, 35],
+  'Intelligent Transportation': [38, 26, 16, 51, 49, 32, 36, 35],
   'Natural Language Processing': [34, 33, 39],
   // 'Survey': [31, 9]
 }
