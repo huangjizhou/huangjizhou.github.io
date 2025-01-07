@@ -34,7 +34,7 @@ const DATA = `
 31|FederatedLearningsurvey2022|Survey
 32|DuARE2022|Intelligent Transportation
 33|DuIVA2022|Natural Language Processing
-34|ERNIE-GeoL2022|Natural Language Processing,Large Language Models (LLMs) and Applications
+34|ERNIE-GeoL2022|Natural Language Processing,Foundation Models and Applications
 35|DuTraffic2022|Intelligent Transportation
 36|DuARUS2022|Intelligent Transportation
 37|DuMapper2022|Intelligent Transportation
@@ -50,13 +50,13 @@ const DATA = `
 47|E2ECausality|Autonomous Driving
 48|BEVWorld|Autonomous Driving
 49|DuMapNet2024|Intelligent Transportation
-50|ReFound2024|Data Mining,Large Language Models (LLMs) and Applications
+50|ReFound2024|Data Mining,Foundation Models and Applications
 51|LDMapNet2025|Intelligent Transportation
 `;
 
 // 决定tag标签整体排序
 const tagsOrder = [
-  'Large Language Models (LLMs) and Applications',
+  'Foundation Models and Applications',
   'Search and Recommendation',
   'Natural Language Processing',
   'Data Mining',
